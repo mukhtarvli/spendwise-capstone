@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+
+# Production builds
+dist/
+build/
+
+# Python dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Testing and cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

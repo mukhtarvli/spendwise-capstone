@@ -1,0 +1,73 @@
+import type { Transaction } from "../types/transaction";
+
+export const initialTransactions: Transaction[] = [
+  {
+    id: "1",
+    name: "Walmart",
+    category: "Groceries",
+    amount: -85.50,
+    date: "2026-11-24",
+    type: "expense",
+    source: "bank",
+  },
+  {
+    id: "2",
+    name: "Salary",
+    category: "Income",
+    amount: 2250,
+    date: "2026-11-23",
+    type: "income",
+    source: "bank",
+  },
+  {
+    id: "3",
+    name: "Netflix",
+    category: "Entertainment",
+    amount: -16.99,
+    date: "2026-11-22",
+    type: "expense",
+    source: "bank",
+  },
+  {
+    id: "4",
+    name: "Shell",
+    category: "Transportation",
+    amount: -65,
+    date: "2026-11-21",
+    type: "expense",
+    source: "bank",
+  },
+  {
+    id: "5",
+    name: "Tim Hortons",
+    category: "Food",
+    amount: -8.75,
+    date: "2026-11-20",
+    type: "expense",
+    source: "manual",
+  },
+  {
+    id: "6",
+    name: "Freelance Project",
+    category: "Income",
+    amount: 500,
+    date: "2026-11-19",
+    type: "income",
+    source: "manual",
+  },
+];
+
+export const transactionCategories = [
+  "Groceries",
+  "Food",
+  "Transportation",
+  "Housing",
+  "Entertainment",
+  "Shopping",
+  "Healthcare",
+  "Education",
+  "Utilities",
+  "Subscriptions",
+  "Income",
+  "Other",
+];
